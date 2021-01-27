@@ -224,6 +224,18 @@ input, select {
 	padding-left: 20px;
 }
 
+.index-contact {
+	float:right;
+	 background-color:#191970;
+	 text-align:center;
+	 width:85%;
+	 height:50px;
+	 color:#F0FFFF;	 
+	 padding: 50px;
+	 font-size:20px;
+	 font-family:arial;
+}
+	 
 
 
  
