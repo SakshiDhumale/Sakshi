@@ -1,0 +1,233 @@
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*Actual Styling code*/
+ .menu {
+	 height: 100%;
+	 width: 200px;
+	 position: fixed;
+	 background-color:#008B8B;
+ }
+ .menu .menu_title{
+	 
+	 font-size: 30px;
+	 padding-top:30px;
+	 padding-bottom:15px;
+	 text-align: center;
+	 color:#AFEEEE;
+	 
+	
+ }
+ 
+ .menu .menu_list ul li {
+	 padding:20px;
+	 padding-left:30px;
+ }
+ 
+ .menu .menu_list ul li a {
+	 text-decoration: none;
+	 font-size: 20px;
+	 font-family: arial;
+	 color:#E0FFFF;
+ }
+ 
+ .index-heading h1{
+	 float: right;
+	 font-size: 70px;
+	 text-align: center;
+	 padding-top: 50px;
+	 width:85%;
+	 height:500px;
+	 background-image:url('https://i.pinimg.com/564x/6d/1f/19/6d1f1976a3dc14d01f36f116b330f08c.jpg');
+	 background-position: top center;
+	 background-repeat: no-repeat;
+	 background-size: 100%;
+	 color:#191970;
+ }
+  .index-about  {
+	 float:right;
+	 background-color:#191970;
+	 text-align:center;
+	 width:85%;
+	 height: 400px;
+	 
+ }
+ 
+ .index-about h1 {
+	 color:#B0C4DE;
+	 font-size: 50px;
+	 padding: 40px;
+ }
+ .index-about p {
+     color:#F0FFFF;	 
+	 padding: 20px;
+	 font-size:30px;
+	 font-family:arial;
+ }
+ 
+ .index-articles {
+	 display:flex;
+	 float: right;
+	 padding: 50px;
+	 
+ }
+ 
+  .index-articles .achievements h1{
+     color:#483D8B;
+     font-size:40px;
+ }	 
+	 
+.index-articles .achievements  ul li {
+	padding: 10px;
+	font-size: 20px;
+	color:#483D8B;
+}
+
+.index-articles .achievements img {
+	width: 300px;
+	height: 300px;
+	padding-left: 20px;
+}
+ 
+  .index-articles .strengths h1{
+     color:#483D8B;
+     font-size:40px;
+ }	 
+	 
+.index-articles .strengths  ul li {
+	padding: 10px;
+	font-size: 20px;
+	color:#483D8B;
+}
+
+.index-articles .strengths img {
+	width: 300px;
+	height: 300px;
+	padding-left: 20px;
+}
+ 
+ .index-articles .goals h1{
+     color:#483D8B;
+     font-size:40px;
+ }	 
+	 
+.index-articles .goals  ul li {
+	padding: 10px;
+	font-size: 20px;
+	color:#483D8B;
+}
+
+.index-articles .goals img {
+	width: 300px;
+	height: 300px;
+	padding-left: 20px;
+}
+
+
+
+ 
+	 
+ 
+	 
+ 
